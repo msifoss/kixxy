@@ -1,0 +1,26 @@
+# Environment files
+.env
+.env.local
+.env.*
+
+# Input data (contains sensitive call records)
+input/
+
+# Output files (generated reports)
+output/
+
+# Claude Code config
+.claude/
+
+# Generated reports
+report.txt
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
